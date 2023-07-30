@@ -13,7 +13,7 @@ Key components of the Collection framework include:
 
     + Collection: The root interface that defines the basic operations for working with collections of objects.
     + List: An ordered collection that allows duplicate elements and provides positional access to elements.
-    + Set: A collection that does not allow duplicate elements.
+    + Set: A collection that does not allow duplicate elements
     + Map: A mapping between keys and values, where each key is associated with a unique value.
 
 <hr>
