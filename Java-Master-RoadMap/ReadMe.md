@@ -1,10 +1,9 @@
 # Java Developer Roadmap
 
-> Roadmap to becoming a [Java](https://g.co/kgs/bzeRda) developer in 2021:
+> Roadmap to becoming a [Java](https://g.co/kgs/bzeRda) developer in 2023:
 
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become a Java developer. I made this chart as a tip for everyone who asks me, "What should I learn next as a Java developer?"
 
-[中文版](./i18n/zh-CN/ReadMe-zh-CN.md)
 
 ## Disclaimer
 
@@ -176,7 +175,6 @@ If you like or are using this project to learn or start your solution, please gi
 
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
 
-Idea from : [Golang Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 
 ## Contribution
 
@@ -185,7 +183,3 @@ The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be 
 - Open a pull request with improvements
 - Discuss ideas in issues
 - Spread the word
-
-## License
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
