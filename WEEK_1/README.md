@@ -11,6 +11,9 @@ Are you ready to unlock the true power of Java programming? Say hello to Object-
 ## Tutorial clip on OOP 
 + [Week one video by Daro](https://drive.google.com/file/d/1LgLkQFo6c_sGmUicskMuvTxdiU70OYwP/view?usp=sharing)
 
+## Personal resourece from w3shools
++ [Java basics](https://www.w3schools.com/java/default.asp)
+
 ## Meet the Superstars: Classes and Objects
 
 Imagine creating a virtual world with real-world entities as your heroes! That's where classes and objects come into play. Classes are like superheroes' blueprints, defining their superpowers (attributes) and missions (methods). Objects, on the other hand, are your superheroes in action, representing these amazing characters.
@@ -64,6 +67,7 @@ https://medium.com/heuristics/interface-vs-abstract-class-vs-concrete-class-196f
 https://www.baeldung.com/java-method-overload-override   
 
 https://www.javatpoint.com/access-modifiers 
+
 
 
 
