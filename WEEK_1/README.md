@@ -10,6 +10,12 @@ Are you ready to unlock the true power of Java programming? Say hello to Object-
 
 ## Tutorial clip on OOP 
 + [Week one video by Daro](https://drive.google.com/file/d/1LgLkQFo6c_sGmUicskMuvTxdiU70OYwP/view?usp=sharing)
++ [Interface vs Abstract Class](https://www.guru99.com/interface-vs-abstract-class-java.html)
++ [Method Overloading and Override](https://www.baeldung.com/java-method-overload-override)
++ [Differences between Abstract class and Interface](https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/ )
++ [Concrete Class](https://medium.com/heuristics/interface-vs-abstract-class-vs-concrete-class-196f20c3af9a)
++ [Access Modifiers](https://www.javatpoint.com/access-modifiers)
+
 
 ## Meet the Superstars: Classes and Objects
 
@@ -51,19 +57,6 @@ https://github.com/QUEENOCHANYAABICHE
 <br>
 https://github.com/Okafor-Samuel
 
-## Resourses for OOP
-
-https://www.guru99.com/interface-vs-abstract-class-java.html 
-
-https://www.baeldung.com/java-method-overload-override 
-
-https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/ 
-
-https://medium.com/heuristics/interface-vs-abstract-class-vs-concrete-class-196f20c3af9a    
-
-https://www.baeldung.com/java-method-overload-override   
-
-https://www.javatpoint.com/access-modifiers 
 
 
 
