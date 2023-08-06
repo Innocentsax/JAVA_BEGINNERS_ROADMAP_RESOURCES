@@ -17,6 +17,9 @@ Are you ready to unlock the true power of Java programming? Say hello to Object-
 + [Access Modifiers](https://www.javatpoint.com/access-modifiers)
 
 
+## Personal resourece from w3shools
++ [Java basics](https://www.w3schools.com/java/default.asp)
+
 ## Meet the Superstars: Classes and Objects
 
 Imagine creating a virtual world with real-world entities as your heroes! That's where classes and objects come into play. Classes are like superheroes' blueprints, defining their superpowers (attributes) and missions (methods). Objects, on the other hand, are your superheroes in action, representing these amazing characters.
@@ -56,6 +59,7 @@ Happy coding, superhero! 💻
 https://github.com/QUEENOCHANYAABICHE 
 <br>
 https://github.com/Okafor-Samuel
+
 
 
 
