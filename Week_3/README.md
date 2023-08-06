@@ -18,7 +18,7 @@ Key components of the Collection framework include:
 
 <hr>
 
-3. Classes: Java provides several classes that implement these interfaces, offering different implementations of collections. Some commonly used classes are:
+2. Classes: Java provides several classes that implement these interfaces, offering different implementations of collections. Some commonly used classes are:
 
     + ArrayList: Implements the List interface using a dynamic array. It can grow and shrink in size as needed.
     + LinkedList: Implements the List interface using a doubly-linked list. It provides fast insertion and deletion at both ends.
@@ -26,7 +26,7 @@ Key components of the Collection framework include:
     + HashMap: Implements the Map interface using a hash table to store key-value pairs.
 <hr>
 
-4. Algorithm: The Collection framework also provides various algorithms and utility methods for performing common operations on collections, such as sorting, searching, filtering, and more.
+3. Algorithm: The Collection framework also provides various algorithms and utility methods for performing common operations on collections, such as sorting, searching, filtering, and more.
 
 <hr>
 
