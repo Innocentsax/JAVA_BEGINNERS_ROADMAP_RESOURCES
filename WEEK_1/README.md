@@ -48,6 +48,20 @@ https://github.com/QUEENOCHANYAABICHE
 <br>
 https://github.com/Okafor-Samuel
 
+## Resourses for OOP
+
+https://www.guru99.com/interface-vs-abstract-class-java.html 
+
+https://www.baeldung.com/java-method-overload-override 
+
+https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/ 
+
+https://medium.com/heuristics/interface-vs-abstract-class-vs-concrete-class-196f20c3af9a    
+
+https://www.baeldung.com/java-method-overload-override   
+
+https://www.javatpoint.com/access-modifiers 
+
 
 
 
