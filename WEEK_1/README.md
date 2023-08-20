@@ -8,6 +8,8 @@
 
 Are you ready to unlock the true power of Java programming? Say hello to Object-Oriented Programming (OOP), a game-changing paradigm that makes coding a breeze for newbies like you! 🌟
 
+# LEARNING MATERIAL
+
 ## Meet the Superstars: Classes and Objects
 
 Imagine creating a virtual world with real-world entities as your heroes! That's where classes and objects come into play. Classes are like superheroes' blueprints, defining their superpowers (attributes) and missions (methods). Objects, on the other hand, are your superheroes in action, representing these amazing characters.
