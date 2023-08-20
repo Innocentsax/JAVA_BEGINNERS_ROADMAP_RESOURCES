@@ -22,7 +22,7 @@ Are you ready to unlock the true power of Java programming? Say hello to Object-
 + [Super keyword](https://www.javatpoint.com/super-keyword)   
 + [Static keyword](https://www.javatpoint.com/static-keyword-in-java)   
 + [User guide](https://junit.org/junit5/docs/current/user-guide/)
-+ 
+ 
 
  
 
@@ -66,9 +66,8 @@ Note: For more in-depth examples and hands-on practice, check out the official J
 Happy coding, superhero! 💻
 
 ## Authors: 
-https://github.com/QUEENOCHANYAABICHE 
-<br>
-https://github.com/Okafor-Samuel
++ [QUEEN ABICHE](https://github.com/QUEENOCHANYAABICHE)
++ [SAMUEL OKAFOR](https://github.com/Okafor-Samuel)
 
 
 
