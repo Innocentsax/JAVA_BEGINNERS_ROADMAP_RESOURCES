@@ -9,24 +9,28 @@ The Collection framework is part of the Java Collections Framework (JCF), which 
 Key components of the Collection framework include:
 <hr>
 
-1. Interface: The core interfaces in the Collection framework define common behaviors and operations that various collection classes can implement. Some of the main interfaces are:
+<h1>Interface</h1>
 
-    + Collection: The root interface that defines the basic operations for working with collections of objects.
-    + List: An ordered collection that allows duplicate elements and provides positional access to elements.
-    + Set: A collection that does not allow duplicate elements
-    + Map: A mapping between keys and values, where each key is associated with a unique value.
+The core interfaces in the Collection framework define common behaviors and operations that various collection classes can implement. Some of the main interfaces are:
 
-<hr>
+    Collection: The root interface that defines the basic operations for working with collections of objects.
+    List: An ordered collection that allows duplicate elements and provides positional access to elements.
+    Set: A collection that does not allow duplicate elements
+    Map: A mapping between keys and values, where each key is associated with a unique value.
 
-2. Classes: Java provides several classes that implement these interfaces, offering different implementations of collections. Some commonly used classes are:
+
+<h2>Classes</h2>
+
+Java provides several classes that implement these interfaces, offering different implementations of collections. Some commonly used classes are:
 
     + ArrayList: Implements the List interface using a dynamic array. It can grow and shrink in size as needed.
     + LinkedList: Implements the List interface using a doubly-linked list. It provides fast insertion and deletion at both ends.
     + HashSet: Implements the Set interface using a hash table. It does not allow duplicate elements.
     + HashMap: Implements the Map interface using a hash table to store key-value pairs.
-<hr>
 
-3. Algorithm: The Collection framework also provides various algorithms and utility methods for performing common operations on collections, such as sorting, searching, filtering, and more.
+<h2>Algorithm</h2>
+
+The Collection framework also provides various algorithms and utility methods for performing common operations on collections, such as sorting, searching, filtering, and more.
 
 <hr>
 
