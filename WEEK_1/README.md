@@ -8,7 +8,31 @@
 
 Are you ready to unlock the true power of Java programming? Say hello to Object-Oriented Programming (OOP), a game-changing paradigm that makes coding a breeze for newbies like you! 🌟
 
+<<<<<<< HEAD
 # LEARNING MATERIAL
+=======
+## Tutorial clip on OOP 
++ [Week one video by Daro](https://drive.google.com/file/d/1LgLkQFo6c_sGmUicskMuvTxdiU70OYwP/view?usp=sharing)
++ [Interface vs Abstract Class](https://www.guru99.com/interface-vs-abstract-class-java.html)
++ [Method Overloading and Override](https://www.baeldung.com/java-method-overload-override)
++ [Differences between Abstract class and Interface](https://javapapers.com/core-java/abstract-and-interface-core-java-2/difference-between-a-java-interface-and-a-java-abstract-class/ )
++ [Concrete Class](https://medium.com/heuristics/interface-vs-abstract-class-vs-concrete-class-196f20c3af9a)
++ [Access Modifiers](https://www.javatpoint.com/access-modifiers)
++ [This keyword](https://www.javatpoint.com/this-keyword)  
++ [Final keyword](https://www.javatpoint.com/final-keyword) 
++ [Inner class](https://www.javatpoint.com/java-inner-class)
++ [OOP](https://www.baeldung.com/java-oop)
++ [Super keyword](https://www.javatpoint.com/super-keyword)   
++ [Static keyword](https://www.javatpoint.com/static-keyword-in-java)   
++ [User guide](https://junit.org/junit5/docs/current/user-guide/)
+ 
+
+ 
+
+
+## Personal resourece from w3shools
++ [Java basics](https://www.w3schools.com/java/default.asp)
+>>>>>>> adf2d88f54738ee7dee8f6cdc8c3af6c940cec52
 
 ## Meet the Superstars: Classes and Objects
 
@@ -46,9 +70,10 @@ Note: For more in-depth examples and hands-on practice, check out the official J
 Happy coding, superhero! 💻
 
 ## Authors: 
-https://github.com/QUEENOCHANYAABICHE 
-<br>
-https://github.com/Okafor-Samuel
++ [QUEEN ABICHE](https://github.com/QUEENOCHANYAABICHE)
++ [SAMUEL OKAFOR](https://github.com/Okafor-Samuel)
+
+
 
 
 
