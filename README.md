@@ -1,4 +1,4 @@
-# [END YOUR STRUGGLE WITH DSA HERE 👈🏽](https://neetcode.io/practice)
+# [END YOUR STRUGGLE WITH DATA STRUCTURE HERE 👈🏽](https://neetcode.io/practice)
 
 # ROADMAP
 
