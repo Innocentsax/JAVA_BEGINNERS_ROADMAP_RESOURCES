@@ -12,6 +12,7 @@
 + [Java Lessons](https://drive.google.com/drive/folders/1DQl01unzlOrQmXrG05iOb38ROW22WVM2?usp=sharing)
 + [Security CheatSheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 + [Udemy Resources](https://1337x.to/torrent/3000685/Udemy-Linux-Administration-with-Advance-Troubleshooting-Skills/)
++ [Linux Administration Sheet](https://drive.google.com/file/d/1WJyjAfRmdgFbZq-ii5HKGQepjDMFpixf/view)
 
 
 # ROADMAP
