@@ -15,6 +15,10 @@
 + [Linux Administration Sheet](https://drive.google.com/file/d/1WJyjAfRmdgFbZq-ii5HKGQepjDMFpixf/view)
 
 
+## Internships
++ [Web Development and Data Science](https://bharatintern.live/b/i/index.html)
++ []()
+
 # ROADMAP
 
 <img src="https://github.com/Innocentsax/JAVA_BEGINNERS_ROADMAP_RESOURCES/blob/main/Java-Master-RoadMap/java-developer-roadmap.png">
