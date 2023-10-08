@@ -20,6 +20,7 @@
 + [Java Internships @India](https://drycode-internships.github.io/)
 + [Java Internships @Dehli](https://internship.codeclause.com/InternshipDomains)
 + [Java Internships @India](https://oasisinfobyte.com/#features)
++ [Java and React InternShips](https://www.syncinterns.com/)
 
 # ROADMAP
 
