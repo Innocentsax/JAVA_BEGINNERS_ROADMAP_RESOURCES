@@ -16,8 +16,8 @@
 
 
 ## Internships
-+ [Web Development and Data Science](https://bharatintern.live/b/i/index.html)
-+ [Java internship](https://drycode-internships.github.io/)
++ [Web Development and Data Science Internships](https://bharatintern.live/b/i/index.html)
++ [Java Internships](https://drycode-internships.github.io/)
 
 # ROADMAP
 
