@@ -18,6 +18,7 @@
 ## Internships
 + [Web Development and Data Science Internships](https://bharatintern.live/b/i/index.html)
 + [Java Internships](https://drycode-internships.github.io/)
++ [Java Internships](https://internship.codeclause.com/InternshipDomains)
 
 # ROADMAP
 
