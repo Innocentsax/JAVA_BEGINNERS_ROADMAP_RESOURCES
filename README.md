@@ -15,16 +15,15 @@
 + [Linux Administration Sheet](https://drive.google.com/file/d/1WJyjAfRmdgFbZq-ii5HKGQepjDMFpixf/view)
 
 
-## Internships
+
+# ROADMAP
+
+<img src="https://github.com/Innocentsax/JAVA_BEGINNERS_ROADMAP_RESOURCES/blob/main/Java-Master-RoadMap/java-developer-roadmap.png">
+
+## Internships and Placement
 + [Web Development and Data Science Internships @bharatintern](https://bharatintern.live/b/i/index.html)
 + [Java Internships @DryCode](https://drycode-internships.github.io/)
 + [Java Internships @CodeClause](https://internship.codeclause.com/InternshipDomains)
 + [Java Internships @Oasisinfobyte](https://oasisinfobyte.com/#features)
 + [Java and React InternShips @SyncIntern](https://www.syncinterns.com/)
 + [Java Internship @Internpe](https://internpe.in/index.html)
-
-# ROADMAP
-
-<img src="https://github.com/Innocentsax/JAVA_BEGINNERS_ROADMAP_RESOURCES/blob/main/Java-Master-RoadMap/java-developer-roadmap.png">
-
-
