@@ -1,4 +1,4 @@
-# [END YOUR STRUGGLE WITH DATA STRUCTURE HERE 👈🏽](https://neetcode.io/practice)
+# [END YOUR STRUGGLE WITH DATA STRUCTURE HERE 👈🏽](https://neetcode.io/practice).
 
 ## Frontend Developement
 + [Fullstack Frontend Developement 1](https://mega.nz/folder/KxhBHQZT#6L-57x0w3L4jowjIlrRQ6w)
