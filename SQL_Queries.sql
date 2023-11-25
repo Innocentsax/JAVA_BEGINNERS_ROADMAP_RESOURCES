@@ -139,3 +139,5 @@ SELECT EXTRACT (QUARTER FROM payment_date) AS per_month FROM payment;
 SELECT AGE(payment_date) FROM payment;
 
 SELECT TO_CHAR(payment_date, 'dd/MM/YYYY') FROM payment;
+
+SELECT DISTINCT(TO_CHAR(payment_date, 'MONTH')) FROM payment;
