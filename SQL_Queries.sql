@@ -102,3 +102,8 @@ SELECT COUNT(*) AS num_transaction FROM payment;
 SELECT customer_id, SUM(amount) AS total_spent FROM payment GROUP BY customer_id HAVING SUM(amount) > 100;
 
 SELECT payment.payment_id, payment.customer_id, payment.first_name FROM payment INNER JOIN customer ON payment.customer_id = customer.customer_id;
+
+SELECT film.film_id, title, inventory_id, store_id 
+FROM film LEFT JOIN inventory 
+ON inventory.film_id = film.film_id 
+WHERE inventory.film_id IS null;
