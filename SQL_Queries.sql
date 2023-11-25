@@ -119,3 +119,5 @@ ON film_actor.film_id = film.film_id
 WHERE first_name = 'Nick' AND last_name = 'Wahlberg';
 
 SHOW ALL
+
+SHOW TIMEZONE;
