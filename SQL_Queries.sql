@@ -182,3 +182,8 @@ SELECT * FROM cd.bookings;
 SELECT * FROM cd.facilities;
 
 SELECT name,membercost FROM cd.facilities;
+
+SELECT name,membercost FROM cd.facilities WHERE membercost > 0;
+
+SELECT facid,name,membercost,monthlymaintenance FROM cd.facilities
+WHERE membercost > 0 AND membercost < (monthlymaintenance/50.0);
