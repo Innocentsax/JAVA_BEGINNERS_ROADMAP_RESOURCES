@@ -202,3 +202,10 @@ SELECT DISTINCT surname FROM cd.members ORDER BY surname LIMIT 10;
 SELECT MIN(joindate) FROM cd.members;
 
 SELECT * FROM cd.facilities WHERE guestcost >= 10;
+
+SELECT facid, SUM(slots) AS total_slots FROM cd.bookings 
+WHERE starttime >= '2012-09-01' AND starttime <= '2012-10-01'
+GROUP BY facid ORDER BY SUM(slots);
+
+SELECT facid,SUM(slots) AS total_slots FROM cd.bookings 
+GROUP BY facid HAVING SUM(slots) > 1000 ORDER BY facid;
