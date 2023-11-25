@@ -170,3 +170,6 @@ ORDER BY film_id;
 SELECT first_name, last_name FROM customer AS c 
 WHERE NOT EXISTS (SELECT * FROM payment as p 
 				  WHERE p.customer_id = c.customer_id AND amount > 11);
+
+SELECT title,length FROM film WHERE length = 117;
+
