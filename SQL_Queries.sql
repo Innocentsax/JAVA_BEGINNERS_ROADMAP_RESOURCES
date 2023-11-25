@@ -196,3 +196,9 @@ SELECT * FROM cd.facilities WHERE facid = 1 OR facid = 5;
 
 SELECT memid,surname,firstname,joindate FROM cd.members 
 WHERE joindate >= '2012-09-01';
+
+SELECT DISTINCT surname FROM cd.members ORDER BY surname LIMIT 10;
+
+SELECT MIN(joindate) FROM cd.members;
+
+SELECT * FROM cd.facilities WHERE guestcost >= 10;
