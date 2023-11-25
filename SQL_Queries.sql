@@ -187,3 +187,7 @@ SELECT name,membercost FROM cd.facilities WHERE membercost > 0;
 
 SELECT facid,name,membercost,monthlymaintenance FROM cd.facilities
 WHERE membercost > 0 AND membercost < (monthlymaintenance/50.0);
+
+SELECT * FROM cd.facilities WHERE name LIKE '%Tennis%';
+
+SELECT * FROM cd.facilities WHERE facid IN (1, 5);
