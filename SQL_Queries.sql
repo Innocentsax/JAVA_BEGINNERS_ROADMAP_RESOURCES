@@ -121,3 +121,6 @@ WHERE first_name = 'Nick' AND last_name = 'Wahlberg';
 SHOW ALL
 
 SHOW TIMEZONE;
+
+SELECT NOW();
+
