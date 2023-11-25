@@ -143,3 +143,7 @@ SELECT TO_CHAR(payment_date, 'dd/MM/YYYY') FROM payment;
 SELECT DISTINCT(TO_CHAR(payment_date, 'MONTH')) FROM payment;
 
 SELECT COUNT(*) FROM payment WHERE EXTRACT(dow FROM payment_date)=1;
+
+SELECT ROUND(rental_rate/replacement_cost,4)*100 AS percent_cost FROM film;
+
+SELECT 0.1 * replacement_cost AS deposit FROM film;
