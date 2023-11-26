@@ -252,3 +252,9 @@ VALUES(1,1,CURRENT_TIMESTAMP)
 UPDATE account SET last_login = CURRENT_TIMESTAMP;
 
 UPDATE account SET last_login = create_on;
+
+UPDATE account_job SET hire_date = account.create_on 
+FROM account WHERE account_job.user_id = account.user_id;
+
+UPDATE account SET last_login = CURRENT_TIMESTAMP
+RETURNING email,create_on,last_login;
