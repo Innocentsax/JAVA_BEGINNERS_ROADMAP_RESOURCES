@@ -314,3 +314,11 @@ CREATE TABLE teachers(
 	email VARCHAR(20) UNIQUE,
 	phone VARCHAR(20) UNIQUE
 )
+
+INSERT INTO students(first_name,last_name,
+					 homeroom_number,phone,grad_year)
+VALUES('Mark','Udo',5,'08163093928',2035)
+
+INSERT INTO teachers(first_name,last_name,
+					 homeroom_number,department,email,phone)
+VALUES('Innocent','Udo',9,'Software','udo@zenbyzenith','08163093928')
