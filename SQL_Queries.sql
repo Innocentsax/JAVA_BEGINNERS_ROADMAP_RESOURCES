@@ -379,3 +379,8 @@ SELECT (
 	NULLIF(SUM(CASE WHEN department = 'B' THEN 1 ELSE 0 END),0)
 ) AS department_ratio
 FROM depts;
+
+
+CREATE VIEW customer_info AS 
+SELECT first_name,last_name,address FROM customer 
+INNER JOIN address ON customer.address_id = address.address_id;
