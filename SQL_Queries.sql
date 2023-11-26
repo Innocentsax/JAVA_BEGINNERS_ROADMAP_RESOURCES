@@ -279,3 +279,14 @@ ALTER TABLE new_info ALTER COLUMN people SET NOT NULL;
 INSERT INTO new_info(title) VALUES('some new title');
 
 ALTER TABLE new_info DROP COLUMN people;
+
+ALTER TABLE new_info DROP COLUMN IF EXISTS people;
+
+CREATE TABLE employees(
+	emp_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	birthdate DATE CHECK (birthdate > '1900-01-01'),
+	hire_date DATE CHECK (hire_date > birthdate),
+	salary INTEGER CHECK (salary > 0)
+)
