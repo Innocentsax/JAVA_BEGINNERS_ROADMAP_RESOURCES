@@ -267,3 +267,9 @@ CREATE TABLE information(
 	title VARCHAR(500) NOT NULL,
 	person VARCHAR(50) NOT NULL UNIQUE
 )
+
+ALTER TABLE information RENAME TO new_info
+
+ALTER TABLE new_info RENAME COLUMN person TO people;
+
+ALTER TABLE new_info ALTER COLUMN people DROP NOT NULL;
