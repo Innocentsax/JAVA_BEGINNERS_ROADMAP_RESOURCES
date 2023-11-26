@@ -219,3 +219,12 @@ ORDER BY cd.bookings.starttime;
 SELECT cd.bookings.starttime FROM cd.bookings
 INNER JOIN cd.members ON cd.members.memid = cd.bookings.memid
 WHERE cd.members.firstname = 'David' AND cd.members.surname = 'Farrell';
+
+CREATE TABLE account(
+	user_id SERIAL PRIMARY KEY,
+	username VARCHAR(50) UNIQUE NOT NULL,
+	password VARCHAR(50) NOT NULL,
+	email VARCHAR(250) UNIQUE NOT NULL,
+	create_on TIMESTAMP NOT NULL,
+	last_login TIMESTAMP 
+)
