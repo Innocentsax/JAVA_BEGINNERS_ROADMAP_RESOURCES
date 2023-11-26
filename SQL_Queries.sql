@@ -273,3 +273,9 @@ ALTER TABLE information RENAME TO new_info
 ALTER TABLE new_info RENAME COLUMN person TO people;
 
 ALTER TABLE new_info ALTER COLUMN people DROP NOT NULL;
+
+ALTER TABLE new_info ALTER COLUMN people SET NOT NULL;
+
+INSERT INTO new_info(title) VALUES('some new title');
+
+ALTER TABLE new_info DROP COLUMN people;
