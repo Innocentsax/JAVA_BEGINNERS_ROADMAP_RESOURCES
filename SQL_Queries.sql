@@ -304,3 +304,13 @@ CREATE TABLE students(
 	email VARCHAR(115) UNIQUE,
 	grad_year integer
 );
+
+CREATE TABLE teachers(
+	teacher_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(45) NOT NULL,
+	last_name VARCHAR(45) NOT NULL,
+	homeroom_number integer,
+	department VARCHAR(45),
+	email VARCHAR(20) UNIQUE,
+	phone VARCHAR(20) UNIQUE
+)
