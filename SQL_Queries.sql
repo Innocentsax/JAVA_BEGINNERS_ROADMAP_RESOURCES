@@ -239,3 +239,9 @@ CREATE TABLE account_job(
 	job_id INTEGER REFERENCES job(job_id),
 	hire_date TIMESTAMP
 )
+
+INSERT INTO account(username,password,email,create_on)
+VALUES('Jose','password','jose@gmail.com',CURRENT_TIMESTAMP);
+
+INSERT INTO job(job_name)
+VALUES('Software Engineer')
