@@ -363,3 +363,12 @@ SELECT SUM(CASE rating WHEN 'R' THEN 1 ELSE 0 END) AS r,
 SUM(CASE rating WHEN 'PG' THEN 1 ELSE 0 END) AS pg,
 SUM(CASE rating WHEN 'PG-13' THEN 1 ELSE 0 END) AS PG13
 FROM film;
+
+
+SELECT CHAR_LENGTH(CAST(inventory_id AS VARCHAR)) FROM rental
+
+SELECT (
+	SUM(CASE WHEN department = 'A' THEN 1 ELSE 0 END)/
+	SUM(CASE WHEN department = 'B' THEN 1 ELSE 0 END)
+) AS department_ratio
+FROM depts
