@@ -258,3 +258,12 @@ FROM account WHERE account_job.user_id = account.user_id;
 
 UPDATE account SET last_login = CURRENT_TIMESTAMP
 RETURNING email,create_on,last_login;
+
+DELETE FROM job WHERE job_name = 'Killer'
+RETURNING job_id,job_name
+
+CREATE TABLE information(
+	info_id SERIAL PRIMARY KEY,
+	title VARCHAR(500) NOT NULL,
+	person VARCHAR(50) NOT NULL UNIQUE
+)
