@@ -245,3 +245,10 @@ VALUES('Jose','password','jose@gmail.com',CURRENT_TIMESTAMP);
 
 INSERT INTO job(job_name)
 VALUES('Software Engineer')
+
+INSERT INTO account_job(user_id,job_id,hire_date)
+VALUES(1,1,CURRENT_TIMESTAMP)
+
+UPDATE account SET last_login = CURRENT_TIMESTAMP;
+
+UPDATE account SET last_login = create_on;
