@@ -228,3 +228,8 @@ CREATE TABLE account(
 	create_on TIMESTAMP NOT NULL,
 	last_login TIMESTAMP 
 )
+
+CREATE TABLE job(
+	job_id SERIAL PRIMARY KEY,
+	job_name VARCHAR(200) UNIQUE NOT NULL
+)
