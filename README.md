@@ -4,6 +4,8 @@
 + [Fullstack Frontend Developement 1](https://mega.nz/folder/KxhBHQZT#6L-57x0w3L4jowjIlrRQ6w)
 + [FullStack Developement](https://mega.nz/folder/DrYHBSxA#xMQBqkyr5lTOb9R6Zg_3yA) 
 
+## Project Templete
+- [Model Template for Professional Project Ideas](https://themeforest.net/item/renax-car-rental-template/50946417)
 
 ## Secert Links
 + [Everything you need to know about Deveops and AWS](https://drive.google.com/drive/folders/1P15Mp_J4WtUnr3EU7aZf-tgdX6jquEYE)
