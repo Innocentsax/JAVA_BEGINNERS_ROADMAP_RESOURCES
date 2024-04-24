@@ -6,6 +6,7 @@
 
 ## Project Templete
 - [Model Template for Professional Project Ideas](https://themeforest.net/item/renax-car-rental-template/50946417)
+- [Model Figma Template for Professional Project Ideas](https://app.dhiwise.com/web-templates)
 
 ## Secert Links
 + [Everything you need to know about Deveops and AWS](https://drive.google.com/drive/folders/1P15Mp_J4WtUnr3EU7aZf-tgdX6jquEYE)
