@@ -1,5 +1,92 @@
 # [END YOUR STRUGGLE WITH DATA STRUCTURE HERE 👈🏽](https://neetcode.io/practice).
 
+## Intellij License
+* [JetBrain Retrial version on mac](https://github.com/thanhdevapp/jetbrains-reset-trial-evaluation-mac)
+```
+ STEPS
+1. Download and extract the bash file from the link above OR Create a bash script and paste the code below 👇 
+E.g runme.sh
+2. Run the bash file on your teminal using the bash script name e.g bash runme.sh
+3. Use intellij version 2021.1.3
+
+```
+
+```
+#!/bin/bash
+
+if [ "$1" = "--prepare-env" ]; then
+  DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+  mkdir -p ~/Scripts
+
+  echo "Copying the script to $HOME/Scripts"
+  cp -rf $DIR/runme.sh  ~/Scripts/jetbrains-reset.sh
+  chmod +x ~/Scripts/jetbrains-reset.sh
+
+  echo
+  echo "Copying com.jetbrains.reset.plist to $HOME/Library/LaunchAgents"
+  cp -rf $DIR/com.jetbrains.reset.plist ~/Library/LaunchAgents
+
+  echo
+  echo "Loading job into launchctl"
+  launchctl load ~/Library/LaunchAgents/com.jetbrains.reset.plist
+
+  echo
+  echo "That's it, enjoy ;)"
+  exit 0
+fi
+
+if [ "$1" = "--launch-agent" ]; then
+  PROCESS=(idea webstorm datagrip phpstorm clion pycharm goland rubymine rider)
+  COMMAND_PRE=("${PROCESS[@]/#/MacOS/}")
+
+  # Kill all Intellij applications
+  kill -9 `ps aux | egrep $(IFS=$'|'; echo "${COMMAND_PRE[*]}") | awk '{print $2}'`
+fi
+
+# Reset Intellij evaluation
+#for product in IntelliJIdea WebStorm DataGrip PhpStorm CLion PyCharm GoLand RubyMine Rider; do
+for product in Rider; do
+  echo "Resetting trial period for $product"
+
+#  echo "removing evaluation key..."
+#  rm -rf ~/Library/Preferences/$product*/eval
+
+  # Above path not working on latest version. Fixed below
+  rm -rf ~/Library/Application\ Support/JetBrains/$product*/eval/*.key
+
+#  echo "removing all evlsprt properties in options.xml..."
+#  sed -i '' '/evlsprt/d' ~/Library/Preferences/$product*/options/other.xml
+
+  # Above path not working on latest version. Fixed below
+  sed -i '' '/evlsprt/d' ~/Library/Application\ Support/JetBrains/$product*/options/other.xml
+
+  echo
+done
+
+echo "removing additional plist files..."
+rm -f ~/Library/Preferences/com.apple.java.util.prefs.plist
+rm -f ~/Library/Preferences/com.jetbrains.*.plist
+rm -f ~/Library/Preferences/jetbrains.*.*.plist
+
+for f in ~/Library/Preferences/jetbrains.*.plist; do
+    if [[ -f $f ]]; then
+        fn=${f##*/}; key=${fn%.plist}
+        echo delete $key from pref and file $f
+        defaults delete "${fn%.plist}" 2>/dev/null && rm "$f"
+    fi
+done
+
+
+echo
+echo "That's it, enjoy ;)"
+
+# Flush preference cache
+if [ "$1" = "--launch-agent" ]; then
+  killall cfprefsd
+  echo "Evaluation was reset at $(date)" >> ~/Scripts/logs
+fi
+```
+
 ## Frontend Developement
 + [Fullstack Frontend Developement 1](https://mega.nz/folder/KxhBHQZT#6L-57x0w3L4jowjIlrRQ6w)
 + [FullStack Developement](https://mega.nz/folder/DrYHBSxA#xMQBqkyr5lTOb9R6Zg_3yA) 
