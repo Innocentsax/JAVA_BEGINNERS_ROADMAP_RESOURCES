@@ -89,7 +89,8 @@ fi
 
 ## Frontend Developement
 + [Fullstack Frontend Developement 1](https://mega.nz/folder/KxhBHQZT#6L-57x0w3L4jowjIlrRQ6w)
-+ [FullStack Developement](https://mega.nz/folder/DrYHBSxA#xMQBqkyr5lTOb9R6Zg_3yA) 
++ [FullStack Developement](https://mega.nz/folder/DrYHBSxA#xMQBqkyr5lTOb9R6Zg_3yA)
++ [Animate CSS](https://dumptyd.github.io/tailwind-animatecss/)
 
 ## Project Templete
 - [Model Template for Professional Project Ideas](https://themeforest.net/item/renax-car-rental-template/50946417)
