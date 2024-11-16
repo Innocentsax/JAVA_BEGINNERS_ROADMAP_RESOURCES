@@ -5,7 +5,8 @@
 * [JetBrain 2026](https://306.antroot.ru/jetbrains-activation)
 * [JetBrain Retrial version on mac](https://github.com/thanhdevapp/jetbrains-reset-trial-evaluation-mac)
 
-
+## Job Search Links
++ [Ultimate Job application Links](https://docs.google.com/spreadsheets/d/1Z69ytUE5Y77AcOYqxBzkHJ6xE4m8eQToVKGJwJjQRm0/edit?gid=386692854#gid=386692854)
 
 ## Frontend Developement
 + [Fullstack Frontend Developement 1](https://mega.nz/folder/KxhBHQZT#6L-57x0w3L4jowjIlrRQ6w)
